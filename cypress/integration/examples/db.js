@@ -15,6 +15,7 @@ describe("My First Test Suite", function () {
 
     // your cy assertions here
   });
+  //insertion command here
   it("Thirdtest", () => {
     cy.task("dbQuery", {
       query:
